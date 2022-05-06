@@ -1,0 +1,21 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<div class="row align-items-center" style="height: 100vh;">
+    
+    <div class="col-4 mx-auto p-3 text-center">
+        <button class="btn btn-primary" onclick="testClick()">Click 1</button>
+        <button class="btn btn-info" onclick="testClick()">Click 2</button>
+    </div>
+
+</div>
+
+<script>
+    const testClick = () => {
+        alert('test')
+    }
+</script>
+
+
+{% endblock content %}
